@@ -1,0 +1,34 @@
+{
+  "name": "now-api-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "postinstall": "prisma2 generate",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/nexus": "^0.0.1",
+    "@zeit/next-css": "^1.0.1",
+    "apollo-server-lambda": "^2.7.2",
+    "apollo-server-micro": "^2.7.1",
+    "graphql": "^14.4.2",
+    "isomorphic-unfetch": "^3.0.0",
+    "next": "^9.0.2",
+    "nexus": "^0.12.0-beta.6",
+    "prisma2": "^2.0.0-preview-3",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "@types/node": "^12.6.8",
+    "@types/react": "^16.8.23",
+    "prettier": "^1.18.2",
+    "typescript": "^3.5.3"
+  }
+}
